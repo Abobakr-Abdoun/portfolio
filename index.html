@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abo-Bakr Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #0f172a;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 42px;
+      }
+
+      header p {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #cbd5e1;
+      }
+
+      nav {
+        background: #1e293b;
+        padding: 15px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 50px 10%;
+      }
+
+      .title {
+        font-size: 32px;
+        margin-bottom: 25px;
+        color: #0f172a;
+        border-left: 5px solid #2563eb;
+        padding-left: 10px;
+      }
+
+      .about {
+        font-size: 18px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .skill {
+        background: #2563eb;
+        color: white;
+        padding: 10px 18px;
+        border-radius: 25px;
+        font-weight: bold;
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+      }
+
+      .project-card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+      }
+
+      .project-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .project-card h3 {
+        color: #2563eb;
+        margin-bottom: 15px;
+      }
+
+      footer {
+        background: #0f172a;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+
+      .contact a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Abo-Bakr Abdoun</h1>
+      <p>Frontend Developer | Computer Science Student</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2 class="title">About Me</h2>
+
+      <p class="about">
+        I am a passionate Computer Science student at the Arab Academy for
+        Science, Technology and Maritime Transport. I enjoy building modern
+        applications and learning new technologies. I have experience in Java,
+        JavaFX, C programming, Firebase, REST APIs, and Frontend Development.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2 class="title">Skills</h2>
+
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Java</div>
+        <div class="skill">JavaFX</div>
+        <div class="skill">Firebase</div>
+        <div class="skill">REST APIs</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">OOP</div>
+        <div class="skill">JDBC</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="title">Projects</h2>
+
+      <div class="projects">
+        <div class="project-card">
+          <h3>Insurance Management System</h3>
+          <p>
+            A desktop insurance company management system developed in C
+            language with login, policy management, and claim handling features.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Sports Club Management System</h3>
+          <p>
+            JavaFX desktop application for managing football clubs, players,
+            matches, and finances using JDBC and database systems.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>TCP Socket Programming</h3>
+          <p>
+            Java networking project implementing server-client communication
+            with real-time messaging using TCP sockets.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Saheeh Application</h3>
+          <p>
+            Healthcare and fitness app using Firebase and REST APIs with secure
+            authentication and real-time data handling.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Dubizzle Inspired Website</h3>
+          <p>
+            Modern ads listing platform inspired by Dubizzle with smart live
+            search, filtering, pagination, image uploads, and localStorage
+            support using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="title">Contact</h2>
+
+      <div class="contact">
+        <p>Email: abobakrabdoun@gmail.com</p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/abobakr-abdoun-5b1142309"
+            target="_blank"
+          >
+            View Profile
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Abo-Bakr Abdoun | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
